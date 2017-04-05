@@ -1,0 +1,14 @@
+
+.background {
+	height:100%;
+  width: 100%;
+  position: fixed;
+  right: -0.1vw;
+  top: -0.1vh ;
+  margin: 0;
+  background: -moz-linear-gradient(top,  #ff7a7a 0%, #fcff82 50%, #bdffad 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ff7a7a 0%,#fcff82 50%,#bdffad 100%);  Chrome10-25,Safari5.1-6 
+  background: linear-gradient(to bottom,  #ff7a7a 0%,#fcff82 50%,#bdffad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

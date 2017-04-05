@@ -1,0 +1,50 @@
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import {Http, RequestOptions, Headers } from '@angular/http';
+
+@Component({
+  selector: 'app-login',
+  encapsulation: ViewEncapsulation.Native ,
+  template: `
+
+  <div class="d">
+        <div class="centered">
+             <img [src]="logo">
+    </div>
+
+
+    
+    <form class="login" #f="ngForm" novalidate>
+        <label for="username" class="logLabelCreds">Username</label>
+        <input type="textarea" name="username"
+         class="logInput" placeholder="Username" #username>
+        <label for="password" class="logLabelCreds">Password</label>
+        <input type="password" name="password" class="logInput"
+        placeholder="Password" #password>
+        <button type="submit" class="btnEnter">
+        <span>Enter
+        </span>
+        </button>
+     </form>
+
+     <div> 
+     
+
+     </div>
+
+
+
+     `,
+
+  styles: [require('./app-login.component.css')]
+})
+export class AppLoginComponent implements OnInit {
+	
+	private logo = require('./domotiQue_v02.png');
+
+  constructor() { }
+
+  ngOnInit() {
+
+  }
+
+}

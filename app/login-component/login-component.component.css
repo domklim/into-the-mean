@@ -1,0 +1,135 @@
+
+.background {
+  height:100%;
+  width: 100%;
+  position: fixed;
+  right: -0.1vw;
+  top: -0.1vh ;
+  margin: 0;
+  background: -moz-linear-gradient(top,  #ff7a7a 0%, #fcff82 50%, #bdffad 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ff7a7a 0%,#fcff82 50%,#bdffad 100%);  Chrome10-25,Safari5.1-6 
+  background: linear-gradient(to bottom,  #ff7a7a 0%,#fcff82 50%,#bdffad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img {
+    display: block;
+    width: 600px;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login {
+  max-width:200px;
+  background: #74a84e;
+  border-radius: 8% 4% 28% 4%;
+  -moz-border-radius: 38% 4% 38% 4%;
+  -webkit-border-radius: 38% 4% 38% 4%;
+  border: 0px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  padding:60px;
+  height: 150px;
+
+}
+
+.logLabelCreds {
+  -webkit-box-align:center;
+  -webkit-box-pack:center;
+  display:-webkit-box;
+  color: #24321a;
+  font-size: 25px;
+  position: relative;
+  top: -10px;
+  /*margin-top: -13px;*/
+}
+
+.logInput {
+  -webkit-box-align:left;
+  -webkit-box-pack:left;
+  display:-webkit-box;
+  display: inline;
+  width: 190px;
+  align-content: center;
+  background-color: #ccfda8;
+  position: relative;
+  top: -12px;
+}
+
+.logInput:focus {
+  outline: none;
+  border-color: #114618;
+  box-shadow: 0 0 7px #114618;
+}
+
+.btnEnter {
+  -webkit-box-align:center;
+  -webkit-box-pack:center;
+  display:-webkit-box;
+  border-radius: 8px;
+  background-color: #547a38;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btnEnter span {
+  -webkit-box-align:center;
+  -webkit-box-pack:center;
+  display:-webkit-box;
+  /*width: 50px;*/
+  font-size: 25px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnEnter:hover{
+  -webkit-box-align:center;
+  -webkit-box-pack:center;
+  display:-webkit-box;
+  background-color: #4c5b41;
+  transition: 1s;
+}
+
+.required{
+  line-height: 30px;
+  width: 150px;
+  color: #24321a;
+  font-size: 20px;
+  text-shadow: -3px 3px 10px #B5FCE8;
+  display: inline;
+  float: right;
+  margin-top: -10px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.imgExclamation{
+  height: 1.12em;
+  width: 8px;
+  vertical-align: middle;
+  position: absolute;
+  float: left;
+  margin-top: 2px;
+  margin-left: -15px;
+  margin-right: 100px;
+  display: inline;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+      width: 100%;
+}
+}

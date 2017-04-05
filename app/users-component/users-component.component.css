@@ -1,0 +1,81 @@
+
+.container {
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	flex-direction: column;
+	width: 762px;
+	height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+
+.second {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+	height: 50px;
+	border-radius: 5px;
+	flex-direction: row;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 5px;
+}
+
+.item {
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.delSign {
+	cursor: pointer;
+	text-align: center;
+	flex-content: right;
+	justify-content: flex-end;
+	margin-right: 15px;
+}
+
+.textStyle {
+	font-size: x-large;
+	line-height: 50px;
+	vertical-align: middle;
+	-webkit-flex: 2 0 0; 
+    flex: 2 0 0; 
+    margin-left: 15px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 762px){
+	.container {
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+
+	.container{
+		width: 80%;
+	}
+
+	.second { 
+		height: 70px;
+		flex-direction: column;
+	}
+	.textStyle {
+		margin: auto;
+		margin-top:-10px;
+		flex: 0 0 0; 
+	}
+	.delSign {
+		margin:auto;
+		margin-top: -15px;
+	}
+
+}

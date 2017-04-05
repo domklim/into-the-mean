@@ -1,0 +1,111 @@
+
+.container {
+	position: relative;
+	margin:auto;
+}
+
+.bedroom {
+	position: absolute;
+    width: 605px;
+    margin-top: 20px;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lampOne {
+	position: absolute;
+    width: 50px;
+    margin-top: 180px;
+    left:0;
+    right:0;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.flowers {
+	position: absolute;
+    width: 250px;
+    margin-top: 380px;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.flowersBlink {
+	position: absolute;
+    width: 250px;
+    margin-top: 380px;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+	animation: blink 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 762px){
+
+.bedroom {
+    width: 300px;
+    height: 220px;
+    margin-top: 14px;
+}
+
+.lampOne {
+    width: 35px;
+    margin-top: 100px;
+}
+
+.flowers {
+    width: 150px;
+    margin-top: 190px;
+}
+
+.flowersBlink {
+    width: 150px;
+    margin-top: 190px;
+}
+}
+
+
+@media only screen and (orientation: landscape) and 
+(max-width: 762px){
+.bedroom {
+    width: 300px;
+    height: 176px;
+    /*margin-top: 8px;*/
+}
+
+.lampOne {
+    width: 35px;
+    margin-top: 75px;
+}
+
+.flowers {
+    width: 150px;
+    margin-top: 155px;
+}
+
+.flowersBlink {
+    width: 150px;
+    margin-top: 155px;
+}
+}

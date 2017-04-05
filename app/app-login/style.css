@@ -1,0 +1,107 @@
+
+
+.id-1 {
+	font: bold italic 150% sans-serif, cursive;
+}
+
+.id-2 {
+	text-align: center;
+	font-style: italic;
+	color: #f00;
+	font-size: 170%;
+}
+
+.tbl-1 {
+	color: white;
+	background: teal;
+	font-size: 120%;
+	font-style: italic;
+}
+
+.tbl-2 {
+	color: red;
+	background-color: silver;
+	font-size: 75%;
+	font-weight: bold;
+}
+.tbl-2:hover {
+	color: black;
+	background-color: red;
+	font-size: 75%;
+	font-weight: bold;
+}
+.elo+h1 {
+	color:blue;
+}
+input[type="text"]{
+	background-color: #f00;
+}
+input[type="password"]{
+	background-color: #0f0;
+}
+input[type="password"]:hover {
+	background-color: #ff0;
+}
+input[type="text"]:focus {
+	background-color: silver;
+}
+#myList>li:nth-child(3n) {
+	border: 1px solid blue;
+	list-style-type: disc;
+}
+
+#btn {
+	background-color: silver;
+}
+
+#btn:hover {
+	background-color: yellow;
+}
+#btn:active {
+	background-color: red;
+}
+.p-cent{
+	text-align: center;
+	border-width: 1px;
+	border-color: black;
+	border: double;
+	margin: 70px;
+}
+.p-ri{
+	margin-left: 50%;
+}
+#main-body {
+	box-shadow: 0px 2px 4px 1px #0000af;
+	border: 5px double black;
+	border-radius: 55px;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.indented {
+	margin-left: 50%;
+}
+#box-1 {
+	background-image: linear-gradient(left, red, blue);
+	background-image: -moz-linear-gradient(left, red, blue);
+	/*background-image: -webkit-linear-gradient(left, red, white);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
