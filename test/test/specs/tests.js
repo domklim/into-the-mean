@@ -108,7 +108,7 @@ const toggleHomeLights = status => {
        browser.waitUntil('.qrCode', 20000);
        expect(browser.isExisting('.qrCode')).to.be.true;
      });
- //TODO light up lights
+   
      it('should show home', () => {
        browser.click(('[ng-reflect-router-link="./home"]'));
        browser.waitUntil('.bedroom', 20000);
