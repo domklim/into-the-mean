@@ -1,0 +1,19 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": " wdio ./wdio.conf.js"
+  },
+  "author": "Dom Klimczyk",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.1",
+    "grunt": "^1.0.1",
+    "grunt-webdriver": "^2.0.3",
+    "wdio-allure-reporter": "^0.1.2",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.8.0"
+  }
+}
